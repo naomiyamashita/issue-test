@@ -1,5 +1,6 @@
 name: Task Issue
 description: 作業進捗用issue
+title: "[Task]: "
 body:
   - type: textarea
     id: why
@@ -12,13 +13,13 @@ body:
     id: ac
     attributes:
       label: クローズ条件
-    validations:
-      required: false
       value: |
         1.
         2.
         3.
       render: bash
+    validations:
+      required: false
   - type: checkboxes
     id: genre
     attributes:
