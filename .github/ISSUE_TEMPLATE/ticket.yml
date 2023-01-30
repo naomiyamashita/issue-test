@@ -16,7 +16,6 @@ body:
         1. 
         2. 
         3. 
-      render: bash
     validations:
       required: false
   - type: dropdown
@@ -31,6 +30,8 @@ body:
         - コーディング
         - デザイン
         - その他
+    validations:
+      required: true
   - type: textarea
     id: appendix
     attributes:
