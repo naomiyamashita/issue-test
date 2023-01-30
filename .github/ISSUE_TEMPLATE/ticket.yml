@@ -13,9 +13,9 @@ body:
     attributes:
       label: クローズ条件
       value: |
-        1.
-        2.
-        3.
+        1. 
+        2. 
+        3. 
       render: bash
     validations:
       required: false
@@ -36,4 +36,4 @@ body:
     attributes:
       label: 補足情報
       description: 参考URLなどあれば
-      value: ""
+      value: "- "
