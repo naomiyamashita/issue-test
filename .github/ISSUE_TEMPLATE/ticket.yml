@@ -22,15 +22,15 @@ body:
       required: false
   - type: checkboxes
     id: genre
-    attributes:
+    attribute:
       label: 作業ジャンル
       options:
-        - 調査
-        - ドキュメント
-        - ミーティング
-        - コーディング
-        - デザイン
-        - その他
+        - label: 調査
+        - label: ドキュメント
+        - label: ミーティング
+        - label: コーディング
+        - label: デザイン
+        - label: その他
   - type: textarea
     id: appendix
     attributes:
