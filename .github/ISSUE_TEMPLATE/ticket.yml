@@ -1,0 +1,31 @@
+name: Task Issue
+description: 作業進捗用issue
+title: "[Task]: "
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: 詳細
+      description: 起きている事象、達成したい目的について記入してください
+  - type: textarea
+    id: ac
+    attributes:
+      label: クローズ条件
+      description:
+  - type: dropdown
+    id: genre
+    attributes:
+      label: 作業ジャンル
+      multiple: true
+      options:
+        - 調査
+        - ドキュメント
+        - ミーティング
+        - コーディング
+        - デザイン
+        - その他
+  - type: textarea
+    id: appendix
+    attributes:
+      label: 補足情報
+      description: 参考URLなどあれば
