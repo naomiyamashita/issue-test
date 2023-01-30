@@ -1,6 +1,5 @@
-name: Task Issue
+name: Ticket
 description: 作業進捗用issue
-title: "[Task]: "
 body:
   - type: textarea
     id: why
@@ -37,3 +36,4 @@ body:
     attributes:
       label: 補足情報
       description: 参考URLなどあれば
+      value: ""
