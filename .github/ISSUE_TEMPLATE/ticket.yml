@@ -20,17 +20,18 @@ body:
       render: bash
     validations:
       required: false
-  - type: checkboxes
+  - type: dropdown
     id: genre
-    attribute:
+    attributes:
       label: 作業ジャンル
+      multiple: true
       options:
-        - label: 調査
-        - label: ドキュメント
-        - label: ミーティング
-        - label: コーディング
-        - label: デザイン
-        - label: その他
+        - 調査
+        - ドキュメント
+        - ミーティング
+        - コーディング
+        - デザイン
+        - その他
   - type: textarea
     id: appendix
     attributes:
